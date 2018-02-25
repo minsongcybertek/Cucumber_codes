@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I navigate to google homepage (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter a keyword to search (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on the search button (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should be able to see the title contains the keyword (PASSED : 3s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15513" started-at="2018-02-25T19:33:14Z" finished-at="2018-02-25T19:33:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@3fee9989]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="15513" started-at="2018-02-25T19:33:14Z" finished-at="2018-02-25T19:33:30Z">
+      <class name="runnerPackage.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runnerPackage.TestRunner@3fee9989]" name="setUp" is-config="true" duration-ms="3373" started-at="2018-02-25T19:33:14Z" finished-at="2018-02-25T19:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.TestRunner@3fee9989]" name="setUpClass" is-config="true" duration-ms="240" started-at="2018-02-25T19:33:18Z" finished-at="2018-02-25T19:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@3fee9989]" name="runScenario" duration-ms="7454" started-at="2018-02-25T19:33:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-02-25T19:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User searches an item on Google and check if the title matches the keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This is just a test feature for cucumber"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I navigate to google homepage (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter a keyword to search (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on the search button (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should be able to see the title contains the keyword (PASSED : 3s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.TestRunner@3fee9989]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2018-02-25T19:33:25Z" finished-at="2018-02-25T19:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:runnerPackage.TestRunner@3fee9989]" name="afterTest" is-config="true" duration-ms="4389" started-at="2018-02-25T19:33:25Z" finished-at="2018-02-25T19:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- runnerPackage.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
